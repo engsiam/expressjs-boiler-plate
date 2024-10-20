@@ -1,0 +1,26 @@
+1.Project initiate
+2.Package.json
+3.Express js with packages
+ - bun add express
+ - bun add cookie-parser
+ - bun add cors
+ - bun add express-rate-limit
+ - bun add helmet
+ - bun add hpp
+ - bun add jsonwebtoken
+ - bun add mongoose
+ - bun add nodemailer
+
+ 4. File Folder & Structure
+    - config
+    - controllers
+    - middlewares
+    - models
+    - utility
+    - routes
+      - api routing
+    - storage
+    - app.js
+
+5. App.js
+   - import application all packages
