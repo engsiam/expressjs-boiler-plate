@@ -24,3 +24,11 @@
 
 5. App.js
    - import application all packages
+   - Global Application Middleware
+   - mongodb connection
+   - rate limit
+   - web caching
+   - mongodb connection
+   - set api Routes
+   - set application storage
+   - run your express application
