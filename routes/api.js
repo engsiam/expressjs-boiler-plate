@@ -1,14 +1,14 @@
 import express from 'express';
 const router = express.Router();
-import * as TaskController from '../app/controllers/TaskControllers.js';
+import * as blogController from '../app/controllers/blogController.js';
 
-//Create routes
-router.post('/createTask', TaskController.createTask);
+// Create Route
+router.post('/create-blog', blogController.createBlog);
 //Read routes
-router.get('/updateTask', TaskController.updateTask);
+router.get('/read-blog', blogController.readBlog);
 //Update routes
-router.put('/updateTask', TaskController.updateTask);
+router.put('/update-blog', blogController.updateBlog);
 //Delete routes
-router.delete('/deleteTask', TaskController.deleteTask);
+router.delete('/delete-blog', blogController.deleteBlog);
 
 export default router;

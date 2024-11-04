@@ -29,7 +29,7 @@ app.set('etag',WEB_CACHE)
 //mongodb connection
 
 //set api Routes
-app.use("/api/v1",router)
+app.use("/",router)
 
 //set application storage
 app.use(express.static('storage'))

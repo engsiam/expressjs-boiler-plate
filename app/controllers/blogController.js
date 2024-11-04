@@ -6,16 +6,16 @@ return res.status(201).send({message: 'Blog created successfully'})
 }
 
 //read
-export const readTask = async (req,res)=>{
-    return res.status(201).send({message: 'Task read'})
+export const readBlog = async (req,res)=>{
+    return res.status(201).send({message: 'Blog read successfully'})
 }
 
 //update
-export const updateTask = async (req,res)=>{
-    return res.status(201).send({message: 'Task updated'})
+export const updateBlog = async (req,res)=>{
+    return res.status(201).send({message: 'Blog update successfully'})
 }
 
 //delete
-export const deleteTask = async (req,res)=>{
-    return res.status(201).send({message: 'Task deleted'})
+export const deleteBlog = async (req,res)=>{
+    return res.status(201).send({message: 'Blog delete successfully'})
 }
