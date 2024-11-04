@@ -1,8 +1,8 @@
 
 //Create
 
-export const createTask = async (req,res)=>{
-return res.status(201).send({message: 'Task created'})
+export const createBlog = async (req,res)=>{
+return res.status(201).send({message: 'Blog created successfully'})
 }
 
 //read
